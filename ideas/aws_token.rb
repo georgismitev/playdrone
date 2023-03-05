@@ -249,12 +249,6 @@ def get_key_info (abt = nil)
   abt.select { |k,v| v[:secret] }.map { |k,v| test_aws_keys k, v[:secret] }
 end
 
-# livenation
-# com.mobileroadie.RSOfficial-4710
-# AKIAIJPLZTZM5WGAXGCA
-# ILZln8gl4rNLmkm8jEwWlINDs2RiWlfgzfL5WjIb
-# 87 S3 buckets, 48 EC2 instances
-
 require 'csv'
 
 def keysout (keyinfo = nil)
